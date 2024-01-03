@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_user"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:text="Nama Lengkap"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap"
+            android:padding="15dp"
+            android:textSize="14dp"
+            android:id="@+id/edt_nama_user"
+            android:background="@drawable/edit"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="E-mail"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit"
+            android:hint="email@gmail.com"
+            android:padding="15dp"
+            android:id="@+id/edt_email_user"
+            android:textSize="14dp"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/edt_password_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit"
+            android:hint="Sarjana"
+            android:padding="15dp"
+            android:textSize="14dp"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Pengalaman kerja"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/edt_pengalaman_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit"
+            android:hint="1 tahun"
+            android:padding="15dp"
+            android:textSize="14dp"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Pendidikan terakhir"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/edt_pendidikan_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit"
+            android:hint="password"
+            android:padding="15dp"
+            android:textSize="14dp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_simpan_user"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/edit"
+            android:text="Simpan"></Button>
+    </LinearLayout>
+
+</LinearLayout>

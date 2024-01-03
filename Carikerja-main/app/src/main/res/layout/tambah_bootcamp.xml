@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Ubah_bootcamp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Bootcamp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Bootcamp"
+        android:textColor="#333333"
+        android:layout_marginBottom="5dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_nama"
+        android:hint="Masukan Nama Bootcamp"
+        android:layout_marginBottom="10dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pendaftaran"
+        android:textColor="#333333"
+
+        android:layout_marginBottom="5dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_tanggal"
+        android:hint="Masukan Tanggal Pendaftaran"
+        android:layout_marginBottom="10dp"></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benefit"
+        android:textColor="#333333"
+        android:layout_marginBottom="5dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_benefit"
+        android:hint="Masukan Benefit"
+        android:layout_marginBottom="10dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pelaksanaan"
+        android:textColor="#333333"
+
+        android:layout_marginBottom="5dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_pelaksanaan"
+        android:hint="Masukan Perusahaan"
+        android:layout_marginBottom="10dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perusahaan"
+        android:textColor="#333333"
+
+        android:layout_marginBottom="5dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_perusahaan"
+        android:hint="Masukan Perusahaan"
+        android:layout_marginBottom="10dp"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:id="@+id/btn_simpan_bootcamp"></Button>
+
+</LinearLayout>
